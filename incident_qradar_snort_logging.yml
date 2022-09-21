@@ -11,6 +11,7 @@
         type_name: "Snort Open Source IDS"
         state: present
         description: "Snort rsyslog source"
+        identifier: "{{ hostvars['snort']['inventory_hostname'] }}"
         identifier: "{{ hostvars['snort']['ansible_fqdn'] }}"
 
     - name: deploy the new log sources
