@@ -29,3 +29,15 @@ checkpoint ansible_host=18.217.232.86 ansible_user=admin ansible_password=admin1
 
 [windows]
 windows-ws ansible_host=3.145.45.246 ansible_user=Administrator ansible_pass=qZI8UhDjw9e98A ansible_port=5986 ansible_connection=winrm ansible_winrm_server_cert_validation=ignore private_ip=172.16.96.137
+
+# SQL Injection workflow
+
+Roll back all changes
+
+Whitelist attacker
+
+IR - Add snort rule
+
+IR - Start SQL injection attack
+
+IR - Forward snort logs to QRadar
