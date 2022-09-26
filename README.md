@@ -41,3 +41,5 @@ IR - Add snort rule
 IR - Start SQL injection attack
 
 IR - Forward snort logs to QRadar
+
+     or use separate playbooks
